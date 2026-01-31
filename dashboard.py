@@ -47,7 +47,7 @@ for _, row in books_clean.iterrows():
 print(f"Prepared {len(descriptions)} descriptions")
 
 # -------------------------------------------------
-# Load local embedding model (FREE)
+# Load local embedding model
 # -------------------------------------------------
 print("Loading local embedding model...")
 model = SentenceTransformer("all-MiniLM-L6-v2")
