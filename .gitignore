@@ -1,1 +1,4 @@
 .env
+embeddings_cache.npy
+.venv
+venv
